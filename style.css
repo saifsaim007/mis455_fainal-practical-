@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; }
+header, footer { text-align: center; padding: 0em; background-color: #ffffff; color: rgb(0, 0, 0); }
+#searchContainer { margin: 1em; }
+#results { margin-top: 1em; }
+.meal { border: 1px solid #ddd; padding: 1em; margin-bottom: 1em; }
+.meal img { max-width: 100px; }
+.show-all { display: none; margin-top: 1em; }
+@media (max-width: 600px) {
+  .meal img { max-width: 50px; }
+  .navbar-brand img {
+    height: 40px; /* Logo size */
+  }
+  * {box-sizing:border-box}
+
+}
